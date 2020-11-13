@@ -1,5 +1,5 @@
-const path = require('path');
-const CURRENT_WORKING_DIR = process.cwd;
+const path = require('path')
+const CURRENT_WORKING_DIR = process.cwd()
 
 const config = {
     mode: "production",
@@ -7,9 +7,9 @@ const config = {
         path.join(CURRENT_WORKING_DIR, 'client/main.js')
     ],
     output: {
-        path: path.join(CURRENT_WORKING_DIR, '/dist'),
+        path: path.join(CURRENT_WORKING_DIR , '/dist'),
         filename: 'bundle.js',
-        publicPath:'/dist'
+        publicPath: "/dist/"
     },
     module: {
         rules: [
@@ -24,4 +24,4 @@ const config = {
     }
 }
 
-module.exports = config;
+module.exports = config

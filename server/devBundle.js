@@ -16,4 +16,4 @@ const compile = (app) => {
 
 export default {
   compile
-}
+};
